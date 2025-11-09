@@ -86,19 +86,7 @@ queuectl dlq list
 queuectl dlq retry <job-id>
 ```
 
-## 🔧 CLI Reference
 
-```
-queuectl enqueue '<jobJson>' [--run-at <iso>] [--max-retries <n>]
-queuectl worker start [--count <n>] [--poll-interval <ms>]
-queuectl worker stop
-queuectl status
-queuectl list [--state <state>] [--limit <n>] [--offset <n>]
-queuectl dlq list
-queuectl dlq retry <id>
-queuectl config get <key>
-queuectl config set <key> <value>
-```
 
 ### Config Keys
 - `max_retries` (default `3`)
