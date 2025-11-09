@@ -5,6 +5,8 @@ A minimal, production-grade **CLI job queue** with **workers**, **retries with e
 
 > Tech: Node 18+, `better-sqlite3`, `commander`, `execa`
 
+# demo - https://drive.google.com/file/d/15Wk3msi1Fe2Kne2y_nmktIquKhqRWFeQ/view?usp=sharing 
+
 ## ✨ Features
 
 - Enqueue shell commands as jobs (e.g., `sleep 2`, `echo hi`)
